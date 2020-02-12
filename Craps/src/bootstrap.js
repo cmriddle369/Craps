@@ -25,5 +25,24 @@ function rollTheDice(){
     rollTheDice = dieOne + dieTwo;
     return rollTheDice;
 }
-// console.log(rollTheDice());
+ console.log(rollTheDice());
 
+//switch statement for winning and losing 'cases'??
+
+switch (rollTheDice) {
+    case 7:
+        winner;
+        break;
+    case 11:
+        winner;
+        break;
+    case 2:
+        loser;
+        break;
+    case 3:
+        loser;
+        break;
+    case 12:
+        loser;
+        break;
+}
